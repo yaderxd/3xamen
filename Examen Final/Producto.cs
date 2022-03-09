@@ -8,7 +8,7 @@ namespace Examen_Final
 {
     class Producto
     {
-
+        string b;
         int a;
         private int codigoproducto;
         private string nombreproducto;
@@ -55,6 +55,10 @@ namespace Examen_Final
         public string todo2()
         {
             return "Codigo :" + CodigoProducto + " Nombre es: " + NombreProducto + " y el Precio es: " + Precio+ "\r\n";
+        }
+        public string ba()
+        {
+            return "Codigo";
         }
     }
 }
