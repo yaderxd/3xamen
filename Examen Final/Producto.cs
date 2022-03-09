@@ -8,6 +8,8 @@ namespace Examen_Final
 {
     class Producto
     {
+
+        int a;
         private int codigoproducto;
         private string nombreproducto;
         private int precio;
